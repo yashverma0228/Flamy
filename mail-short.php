@@ -7,13 +7,13 @@
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     # Replace this email with your email address
-    $mail_to = "yourmail@example.com";
+    $mail_to = "flamywithus@gmail.com";
 
     # Message: You can modify that string with your text.
-    $message = "";
+    $message = "Thnkyou for your response";
 
     # Subject: You can modify that string with your message.
-    $subject = "Your Website Response";
+    $subject = "Welcome to Flamy";
 
 	# Collect Data
     $email = filter_var(trim($_POST["subscribe_email"]), FILTER_SANITIZE_EMAIL);
